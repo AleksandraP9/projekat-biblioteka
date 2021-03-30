@@ -1,0 +1,145 @@
+/* GLOBALNO  */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+p,
+span,
+td,
+th,
+strong,
+input,
+select,
+textarea,
+i,
+label {
+  font-size: 0.9rem;
+}
+
+input,
+select,
+button {
+  width: 230px;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+button {
+  margin-top: 1rem;
+}
+
+.glKontejner {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.divZaForme {
+  display: flex;
+  /*flex-basis: 200px;*/
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.divZaDodavanjeKnjige, .divZaDodavanjeZanra, .divZaBrisanjeKnjige, .divZaIzmenuKnjige {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0px;
+  align-items: center;
+}
+
+[class^="naslovForme"] {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+.form-control, .form-select {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  width: 230px;
+  font-size: 16px;
+}
+
+.police {
+  background-color: #f2f2f2;
+  width: 100%;
+  max-height: 100%;
+  min-height: 140px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.miniKont {
+  display: flex;
+  flex-direction: row;
+}
+
+[class^="boja-"] {
+  width: 50px;
+  height: 100%;
+  min-height: 140px;
+  border-radius: 3px;
+  position: relative;
+  margin: 10px;
+}
+
+
+
+.booktitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+
+[class^="police"] {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+.small-btn{
+  width: 40px;
+}
+
+/* *BOJE KNJIGA */
+
+.boja-1 {
+  background-color: #F87171;
+}
+.boja-2 {
+  background-color: #60A5FA;
+}
+.boja-3 {
+  background-color: #f472b6;
+}
+.boja-4 {
+  background-color: #34d399;
+}
+.boja-5 {
+  background-color: #fcd34d;
+}
+.boja-6 {
+  background-color: #9ca3af;
+}
+.boja-7 {
+  background-color: #8b5cf6;
+}
